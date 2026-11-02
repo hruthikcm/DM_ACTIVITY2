@@ -1,0 +1,9 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.HierarchicalClusterer -N 2 -L AVERAGE -P -A "weka.core.EuclideanDistance -R first-last"
+Relation:     mushroom-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NominalToBinary-R2-23-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    8124
+Attributes:   121
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+

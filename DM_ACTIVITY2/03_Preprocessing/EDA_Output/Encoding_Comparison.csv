@@ -1,0 +1,5 @@
+Method,Feature_Count
+Original categorical,22
+Ordinal encoding,22
+One-hot encoding,117
+PCA,15

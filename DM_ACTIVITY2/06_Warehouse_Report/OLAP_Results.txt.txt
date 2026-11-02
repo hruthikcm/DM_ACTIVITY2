@@ -1,0 +1,20 @@
+# OLAP Analysis Results
+
+The mushroom data warehouse was successfully created using SQLite.
+
+- Total mushroom records: 8,124
+- Total input features: 22
+- Edible records: 4,208
+- Poisonous records: 3,916
+
+## OLAP Operations
+
+1. **Class distribution:** Analyzed the number of edible and poisonous records.
+2. **Characteristic analysis:** Examined feature values according to class labels.
+3. **Feature group analysis:** Grouped characteristics into cap, gill, stalk and other categories.
+
+## Observation
+
+The feature-group totals reflect the number of characteristic records, not the number of individual mushrooms. Each mushroom contributes one record for every feature in a group.
+
+The warehouse successfully supports multidimensional analysis of mushroom characteristics and class labels.

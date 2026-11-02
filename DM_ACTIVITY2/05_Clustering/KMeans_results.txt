@@ -1,0 +1,165 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     mushroom-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NominalToBinary-R2-23-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    8124
+Attributes:   121
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 10
+Within cluster sum of squared errors: 76718.04560142162
+
+Initial starting points (random):
+
+Cluster 0: 0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+Cluster 1: 0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                          Cluster#
+Attribute                     Full Data          0          1
+                               (8124.0)   (5078.0)   (3046.0)
+=============================================================
+cap-shape=b                      0.0556     0.0884      0.001
+cap-shape=c                      0.0005     0.0008          0
+cap-shape=x                        0.45     0.4212      0.498
+cap-shape=f                       0.388     0.3208        0.5
+cap-shape=k                      0.1019     0.1625      0.001
+cap-shape=s                      0.0039     0.0063          0
+cap-surface=f                    0.2856     0.1591     0.4964
+cap-surface=g                    0.0005     0.0008          0
+cap-surface=y                    0.3993     0.3375     0.5023
+cap-surface=s                    0.3146     0.5026     0.0013
+cap-color=n                      0.2811     0.3348     0.1917
+cap-color=b                      0.0207     0.0331          0
+cap-color=c                      0.0054     0.0087          0
+cap-color=g                      0.2265     0.1213     0.4018
+cap-color=r                       0.002     0.0018     0.0023
+cap-color=p                      0.0177     0.0284          0
+cap-color=u                       0.002     0.0018     0.0023
+cap-color=e                      0.1846      0.182     0.1891
+cap-color=w                       0.128     0.2048          0
+cap-color=y                       0.132     0.0835     0.2127
+bruises=f                        0.5844     0.6747      0.434
+odor=a                           0.0492     0.0788          0
+odor=l                           0.0492     0.0788          0
+odor=c                           0.0236     0.0378          0
+odor=y                           0.0709     0.1134          0
+odor=f                           0.2659     0.1701     0.4255
+odor=m                           0.0044     0.0071          0
+odor=n                           0.4343     0.3501     0.5745
+odor=p                           0.0315     0.0504          0
+odor=s                           0.0709     0.1134          0
+gill-attachment=a                0.0258     0.0414          0
+gill-attachment=d                     0          0          0
+gill-attachment=f                0.9742     0.9586          1
+gill-attachment=n                     0          0          0
+gill-spacing=c                   0.8385     0.7416          1
+gill-spacing=w                   0.1615     0.2584          0
+gill-spacing=d                        0          0          0
+gill-size=n                      0.3092     0.4919     0.0046
+gill-color=k                     0.0502     0.0803          0
+gill-color=n                      0.129     0.1217     0.1412
+gill-color=b                     0.2127     0.3403          0
+gill-color=h                     0.0901     0.0583     0.1431
+gill-color=g                     0.0926      0.063     0.1418
+gill-color=r                      0.003     0.0047          0
+gill-color=o                     0.0079     0.0126          0
+gill-color=p                     0.1837     0.1229      0.285
+gill-color=u                     0.0606      0.011     0.1431
+gill-color=e                     0.0118     0.0189          0
+gill-color=w                      0.148     0.1493     0.1458
+gill-color=y                     0.0106     0.0169          0
+stalk-shape=t                    0.5672     0.5679      0.566
+stalk-root=b                     0.7701     0.6321          1
+stalk-root=c                     0.0684     0.1095          0
+stalk-root=u                          0          0          0
+stalk-root=e                     0.1379     0.2206          0
+stalk-root=z                          0          0          0
+stalk-root=r                     0.0236     0.0378          0
+stalk-surface-above-ring=f       0.0679     0.1087          0
+stalk-surface-above-ring=y        0.003     0.0024     0.0039
+stalk-surface-above-ring=k        0.292     0.2119     0.4255
+stalk-surface-above-ring=s       0.6371      0.677     0.5706
+stalk-surface-below-ring=f       0.0739     0.1154     0.0046
+stalk-surface-below-ring=y        0.035     0.0536     0.0039
+stalk-surface-below-ring=k       0.2836     0.1985     0.4255
+stalk-surface-below-ring=s       0.6076     0.6325      0.566
+stalk-color-above-ring=n         0.0551     0.0008     0.1458
+stalk-color-above-ring=b         0.0532          0     0.1418
+stalk-color-above-ring=c         0.0044     0.0071          0
+stalk-color-above-ring=g         0.0709          0     0.1891
+stalk-color-above-ring=o         0.0236     0.0378          0
+stalk-color-above-ring=p         0.2304     0.1701     0.3309
+stalk-color-above-ring=e         0.0118     0.0189          0
+stalk-color-above-ring=w         0.5495     0.7637     0.1924
+stalk-color-above-ring=y          0.001     0.0016          0
+stalk-color-below-ring=n          0.063     0.0134     0.1458
+stalk-color-below-ring=b         0.0532          0     0.1418
+stalk-color-below-ring=c         0.0044     0.0071          0
+stalk-color-below-ring=g         0.0709          0     0.1891
+stalk-color-below-ring=o         0.0236     0.0378          0
+stalk-color-below-ring=p         0.2304     0.1701     0.3309
+stalk-color-below-ring=e         0.0118     0.0189          0
+stalk-color-below-ring=w         0.5396     0.7479     0.1924
+stalk-color-below-ring=y          0.003     0.0047          0
+veil-type=u                           0          0          0
+veil-color=n                     0.0118     0.0189          0
+veil-color=o                     0.0118     0.0189          0
+veil-color=w                     0.9754     0.9606          1
+veil-color=y                      0.001     0.0016          0
+ring-number=n                    0.0044     0.0071          0
+ring-number=o                    0.9217     0.8771     0.9961
+ring-number=t                    0.0739     0.1158     0.0039
+ring-type=c                           0          0          0
+ring-type=e                      0.3417     0.5467          0
+ring-type=f                      0.0059     0.0067     0.0046
+ring-type=l                      0.1595          0     0.4255
+ring-type=n                      0.0044     0.0071          0
+ring-type=p                      0.4884     0.4395     0.5699
+ring-type=s                           0          0          0
+ring-type=z                           0          0          0
+spore-print-color=k              0.2304     0.1989      0.283
+spore-print-color=n              0.2422     0.2178      0.283
+spore-print-color=b              0.0059     0.0095          0
+spore-print-color=h              0.2009     0.0634     0.4301
+spore-print-color=r              0.0089     0.0142          0
+spore-print-color=o              0.0059     0.0095          0
+spore-print-color=u              0.0059     0.0095          0
+spore-print-color=w              0.2939     0.4679     0.0039
+spore-print-color=y              0.0059     0.0095          0
+population=a                     0.0473     0.0756          0
+population=c                     0.0419      0.067          0
+population=n                     0.0492     0.0788          0
+population=s                     0.1536     0.2458          0
+population=v                     0.4973     0.4986     0.4951
+population=y                     0.2107     0.0343     0.5049
+habitat=g                        0.2644     0.3379     0.1418
+habitat=l                        0.1024     0.1638          0
+habitat=m                        0.0359     0.0575          0
+habitat=p                        0.1408     0.1394     0.1431
+habitat=u                        0.0453     0.0725          0
+habitat=w                        0.0236     0.0378          0
+habitat=d                        0.3875      0.191      0.715
+
+
+
+
+Time taken to build model (full training data) : 0.35 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      5078 ( 63%)
+1      3046 ( 37%)
+

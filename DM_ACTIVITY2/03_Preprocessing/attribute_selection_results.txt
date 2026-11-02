@@ -1,0 +1,54 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     mushroom-weka.filters.unsupervised.attribute.ReplaceMissingValues
+Instances:    8124
+Attributes:   23
+              class
+              cap-shape
+              cap-surface
+              cap-color
+              bruises
+              odor
+              gill-attachment
+              gill-spacing
+              gill-size
+              gill-color
+              stalk-shape
+              stalk-root
+              stalk-surface-above-ring
+              stalk-surface-below-ring
+              stalk-color-above-ring
+              stalk-color-below-ring
+              veil-type
+              veil-color
+              ring-number
+              ring-type
+              spore-print-color
+              population
+              habitat
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 118
+	Merit of best subset found:    0.546
+
+Attribute Subset Evaluator (supervised, Class (nominal): 1 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 6,8,13,18 : 4
+                     odor
+                     gill-spacing
+                     stalk-surface-above-ring
+                     veil-color
+

@@ -1,0 +1,9 @@
+MUSHROOM DATASET EDA AND PREPROCESSING
+Total records: 8124
+Total attributes: 23
+Missing stalk-root values: 2480
+Edible records: 4208
+Poisonous records: 3916
+One-hot features: 117
+PCA components: 15
+PCA variance retained: 95.16%
